@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/cvRoot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/iv_rumah"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:text="Nama Rumah"
+            android:layout_toRightOf="@id/iv_rumah"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/header_judul"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_alamat"
+            android:text="Alamat"
+            android:layout_toRightOf="@id/iv_rumah"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/header_judul_dua"
+            />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

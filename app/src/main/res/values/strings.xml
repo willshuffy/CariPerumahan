@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Cari Perumahan</string>
+    <string name="error">Gagal</string>
+    <string name="tidak_ada_data">Tidak ada data</string>
+    <string name="tambah_rumah">Tambah Rumah</string>
+    <string name="error_msg_unknown">Terjadi kesalahan tak terduga</string>
+    <string name="error_msg_no_internet">Tidak ada koneksi internet</string>
+    <string name="error_msg_timeout">Server butuh waktu terlalu lama untuk merespons</string>
+    <string name="tap_to_reload">Tekan untuk memuat ulang</string>
 </resources>
